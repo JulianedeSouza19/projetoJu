@@ -1,1 +1,90 @@
-Bom dia
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/XHTML1-STRICT.dtd"\>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv= "Content-Type" content="text/html;charset=UTF-8"\>
+		<title> Ficha de Encomendas de Pizza </title>
+    </head>
+    <body>
+        
+        <table>  
+            <thead> 
+                 <h1>Ficha de Encomendas de Pizza</h1> 
+				 
+				<tr>
+                    <td> 
+					<hr/>
+					Qual a pizza? <select name= "Escolha a pizza" id= "id_da_lista"> 
+					    <option value= "Valor 1"> Escolha a pizza: </option>
+						<option value= "Valor 1"> calabresa </option>
+			             <option value= "Valor 2"> Quatro Queijos </option>
+						 <option value= "Valor 3"> Frango com bacon </option>
+						</select>
+						  Quantidade <select name= "Escolha a pizza" id= "id_da_lista"> 
+					    <option value= "Valor 1"> 0 </option>
+			             <option value= "Valor 2"> 1 </option>
+						 <option value= "Valor 3"> 2 </option>
+						 <option value= "Valor 3"> 3 </option>
+						 <option value= "Valor 3"> 4 </option>
+						</select>
+                    </td> 
+					</tr>
+					<tr>
+					<td> Qual a bebida? <select name="Escolha a bebida" id= "id_da_lista"> 
+					    <option value= "Valor 1"> Escolha a bebida: </option>
+						<option value= "Valor 1"> Refrigerante </option>
+			             <option value= "Valor 2"> Suco </option>
+						 <option value= "Valor 3"> Água </option>
+						</select>
+                        Quantidade: <select name= "Escolha a pizza" id= "id_da_lista"> 
+					    <option value= "Valor 1"> 0 </option>
+			             <option value= "Valor 2"> 1 </option>
+						 <option value= "Valor 3"> 2 </option>
+						 <option value= "Valor 3"> 3 </option>
+						 <option value= "Valor 3"> 4 </option>
+						</select>
+                    </td> 
+					</tr>
+					<tr>
+					<td> 
+					<input type="checkbox" value="valor" [checked= "checked"]/>
+					 Extra Queijo 
+					<input type="checkbox" value="valor" [checked= "checked"]/>
+					 Massa grossa
+					<input type="checkbox" value="valor" [checked= "checked"]/>
+					 Pimentas
+					 <input type="checkbox" value="valor" [checked= "checked"]/>
+					 Cogumelos
+                    </td>  
+                    </tr>
+				    <form>
+					<td>
+					<hr/>
+					    <fieldset>
+						       <legend>Dados para entrega:</legend>
+							   Name:     <input type="text" SIZE="30" id="nome" /><br/>
+							   Endereço: <input type="text" SIZE="30" id="endereço" /><br/>
+							   Telefone: <input type="text" SIZE="30" id="telefone" /><br/>
+			        </td>
+					<tr>
+					<td>
+					<hr/>
+					<fieldset>
+						       <legend>Forma de pagamento:</legend>
+							   <input type="radio" name="VISA" id="v1"/>
+							   VISA
+							   <input type="radio" name="A vista" id="v2"/>
+							   À vista
+							   <input type="radio" name="Boleto" id="v3"/>
+							   Boleto com 30 dias + 15%
+							 
+							   <br/> Número do Cartão VISA:<input type="text" SIZE="30" id="nome" /><br/>        
+					</td>
+					</tr>
+					<td>
+					<input type="button" value="Enviar"/>
+					<input type="button" value="Limpar"/>
+					</td>
+    </body>
+</html>
